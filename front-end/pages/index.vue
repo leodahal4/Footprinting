@@ -4,7 +4,7 @@
       <v-hover
         v-slot="{ hover }"
       >
-      <v-card height="50vh" :elevation="hover? 12 : 2" to="/organization">
+      <v-card height="50vh" :elevation="hover? 12 : 2" to="/InputDetails">
         <v-card-title>
             <v-img
               height="30vh"
@@ -24,7 +24,7 @@
       <v-hover
         v-slot="{ hover }"
       >
-      <v-card height="50vh" :elevation="hover? 12:2" to="/person">
+      <v-card height="50vh" :elevation="hover? 12:2" to="/InputDetails">
         <v-card-title>
             <v-img
               height="30vh"
@@ -46,6 +46,12 @@
 <script>
 
 export default {
+  data() {
+    return {
+      name: '',
+      dialogForName: false
+    }
+  }
 }
 </script>
 
