@@ -1,11 +1,10 @@
 ## FootPrinting
 
-#### What if we can search a person details or organization using just their name
-and nothing else?
+#### What if we can search a person details or organization using just their name and nothing else?
 
 ### Features: 
 
-(Upcomming)
+(Upcoming)
 
 1. Input Name or Image
 > Enter the name and select the person image and leave the code to auto
